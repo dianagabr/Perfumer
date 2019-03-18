@@ -1,0 +1,66 @@
+body{
+	width: auto;
+	border: auto;
+	padding: auto;
+	margin: auto;
+}
+
+header{
+	background-color: black;
+	position: sticky;
+	width: 100%;
+	top:0 ;
+
+}
+
+.h1 {
+
+	color: white;
+	text-align: center;
+	padding-top: 1%;
+	font-family: "Bookman Old Style";
+	font-size: 170%;
+	
+}
+
+nav{
+	padding-bottom: 0.5%;
+	margin: 0;
+}
+
+
+nav ul {
+
+  list-style-type: none;
+  margin-top: 0.5%;
+  margin-bottom: 0.5%;
+  padding: 0 ;
+  background-color: black;
+  overflow: hidden;
+  text-align: center;  
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+
+	color:white;
+	text-decoration: none;
+	padding: 1% 1%;
+}
+nav ul li a:hover {
+	
+	color: #cc5c5c
+}
+
+.FemeiBarbati{
+	font-family: "Bookman Old Style";
+	font-size: 85%;
+}
+.ContCos {
+	font-family: "Bookman Old Style";
+	font-size: 80%;
+}
+
