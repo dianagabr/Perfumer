@@ -11,7 +11,6 @@ body{
 }
 
 .h1 {
-
 	color: white;
 	text-align: center;
 	padding-left: 30%;
@@ -294,4 +293,27 @@ span.psw {
 }
 #login label{
 	width:10%;
+}
+
+/* -----shoppingcart---*/
+#title h1{
+float:center;
+text-align: center;
+text-transform: uppercase;
+}
+
+.shoppingcart{
+	background-color: white;
+}
+.product{
+	background-color: white;
+}
+.product-image { background: white;float: left; width: 20%; }
+.product-details {background: white; float: left; width: 37%; }
+.product-price {background: white; float: left; width: 12%; }
+.product-quantity {background: white; float: left; width: 10%; }
+.product-removal {background: white; float: left; width: 9%; }
+.product-line-price { background: white;float: left; width: 12%; text-align: right; }
+.product .product-price:before, .product .product-line-price:before, .totals-value:before {
+  content: '$';
 }
